@@ -13,11 +13,11 @@ print("I am working")
 #ping
 latency_ms = round(bot.latency * 1000)
 @bot.command();
-async def ping()
+async def ping();
    await ctx.send(f"pong! my ping is {laency_ms}")
 #invites
 @bot.command();
-async def create(args)
+async def create(args);
    await ctx.send("I am not ready yet Stop trying to use me")
 
 
@@ -25,4 +25,5 @@ async def create(args)
 
 #token
 bot.run(token)
+
 
